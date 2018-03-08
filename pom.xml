@@ -1,28 +1,28 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">  
-    <modelVersion>4.0.0</modelVersion>
-	<artifactId>lottery-drawing-service-root</artifactId>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>file-upload-download-service-root</artifactId>
 	<packaging>pom</packaging>
-	<name>lottery-drawing-service</name>
-	<description>lottery drawing service</description>
+	<name>file-upload-download-service</name>
+	<description>file upload download service</description>
 
 	<parent>
-		<groupId>org.cpm.zerowastelife</groupId>
+		<groupId>org.cpm.zwl</groupId>
 		<artifactId>spring-boot-root</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<dependencies>
 		<!-- commons -->
 		<dependency>
-			<groupId>org.cpm.zerowastelife</groupId>
+			<groupId>org.cpm.zwl</groupId>
 			<artifactId>commons</artifactId>
 		</dependency>
-	
+
 	</dependencies>
-	
-    <modules>  
-        <module>lottery-drawing-service-implement</module>
-		<module>lottery-drawing-service-shared</module> 
-    </modules>  
-</project>  
+
+	<modules>
+		<module>file-upload-download-service-implement</module>
+		<module>file-upload-download-service-shared</module>
+	</modules>
+</project> 
